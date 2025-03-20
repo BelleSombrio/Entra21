@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Tabela Jogos Brasileirão</h1>
+    <table>
+        <tr>
+            <th>Posição</th>
+            <th>Time</th>
+            <th>Pontos</th>
+            <th>Jogos</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Gols Pró</th>
+            <th>Gols Contra</th>
+            <th>Saldo de Gols</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Flamengo</td>
+            <td>71</td>
+            <td>38</td>
+            <td>22</td>
+            <td>5</td>
+            <td>11</td>
+            <td>65</td>
+            <td>30</td>
+            <td>35</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Palmeiras</td>
+            <td>69</td>
+            <td>38</td>
+            <td>21</td>
+            <td>6</td>
+            <td>11</td>
+            <td>58</td>
+            <td>27</td>
+            <td>31</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Atlético-MG</td>
+            <td>68</td>
+            <td>38</td>
+            <td>20</td>
+            <td>8</td>
+            <td>10</td>
+            <td>54</td>
+            <td>29</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>São Paulo</td>
+            <td>65</td>
+            <td>38</td>
+            <td>19</td>
+            <td>8</td>
+            <td>11</td>
+            <td>52</td>
+            <td>30</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Internacional</td>
+            <td>63</td>
+            <td>38</td>
+            <td>18</td>
+            <td>9</td>
+            <td>11</td>
+            <td>49</td>
+            <td>28</td>
+            <td>21</td>
+        </tr>
+
+
+    </table>
+
+
+    <form action="form2.html" method="get">
+        <h1>Cadastro do Usuário</h1>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha">
+        <br><br>
+
+        <label for="CPF">CPF: </label>
+        <input type="number" name="CPF">
+        <br><br>
+
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade">
+        <br><br>
+
+        <label for="descricao">Descrição do pedido:</label>
+        <textarea name="descricao" id="descricao" cols="30" rows="5"></textarea>
+        <br><br>
+
+        <label for="estado">Selecione seu estado: </label>
+        <select name="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SC">Santa Catarina</option>
+        </select>
+        <br><br>
+
+        <label for="genero">Selecione seu gênero: </label>
+        <br>
+        <label for="m">Masculino</label>
+        <input type="radio" name="genero" value="m">
+        <br>
+        <label for="f">Feminino</label>
+        <input type="radio" name="genero" value="f">
+        <br><br>
+
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" id="myDate" name="nascimento">
+        <br><br>
+
+        <label for="horario">Que horas vc acorda?</label>
+        <input type="time" id="myTime" name="horario">
+        <br><br>
+
+        <label for="doc">Enviar arquivo</label>
+        <input type="file" name="doc" class="doc" accept=".pdf, .tx">
+
+        <br><br>
+
+        <button type="reset">Limpar Formulário</button>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+
+        
+        
+    </form>
+
+
+
+</body>
+
+</html>
