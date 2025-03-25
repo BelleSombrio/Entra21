@@ -1,8 +1,7 @@
-
 form {
-border: 2px solid brown;
-border-radius: 3px;
-padding: 20px;
+    border: 2px solid brown;
+    border-radius: 3px;
+    padding: 20px;
 
 }
 
@@ -16,7 +15,7 @@ table {
 
 th {
     background-color: brown;
-    color:white;
+    color: white;
     text-align: center;
     padding: 12px 25px;
 }
@@ -28,7 +27,9 @@ td {
     padding: 12px 25px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid rgb(122, 24, 24);
 }
 
@@ -42,7 +43,10 @@ label {
     font-size: 22px;
 }
 
-input, textarea, select, button   {
+input,
+textarea,
+select,
+button {
     border: 1px solid brown;
     background-color: rgb(252, 238, 220);
     color: brown;
@@ -50,12 +54,15 @@ input, textarea, select, button   {
 }
 
 
- input[type="radio"] {
-    appearance: none; /* Remove o estilo padrão */
+input[type="radio"] {
+    appearance: none;
+    /* Remove o estilo padrão */
     width: 20px;
     height: 20px;
-    border: 2px solid brown; /* Cor da borda */
-    border-radius: 50%; /* Mantém o formato redondo */
+    border: 2px solid brown;
+    /* Cor da borda */
+    border-radius: 50%;
+    /* Mantém o formato redondo */
     outline: none;
     cursor: pointer;
     display: inline-block;
@@ -64,8 +71,10 @@ input, textarea, select, button   {
 
 /* Mudando a cor quando está selecionado */
 input[type="radio"]:checked {
-    background-color: red; /* Cor de fundo ao selecionar */
-    border-color: brown; /* Cor da borda ao selecionar */
+    background-color: red;
+    /* Cor de fundo ao selecionar */
+    border-color: brown;
+    /* Cor da borda ao selecionar */
 }
 
 /* Criando um efeito de bolinha interna */
@@ -73,7 +82,7 @@ input[type="radio"]::before {
     content: "";
     width: 12px;
     height: 12px;
-    background-color:  rgb(252, 238, 220);
+    background-color: rgb(252, 238, 220);
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -87,10 +96,23 @@ input[type="radio"]:checked::before {
     transform: translate(-50%, -50%) scale(1);
 }
 
-input[type="form"]:checked{
-    appearance: none; /* Remove o estilo padrão */
-    border: 2px solid brown; /* Cor da borda */
-    background-color:  rgb(252, 238, 220);
-    color:brown;
+input[type="form"]:checked {
+    appearance: none;
+    /* Remove o estilo padrão */
+    border: 2px solid brown;
+    /* Cor da borda */
+    background-color: rgb(252, 238, 220);
+    color: brown;
 }
 
+
+.lorem {
+    background-color: blanchedalmond;
+    color: hotpink;
+    font-size: large;
+    margin-top: 250px;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+
+}
