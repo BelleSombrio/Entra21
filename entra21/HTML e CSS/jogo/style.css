@@ -1,0 +1,52 @@
+
+        /* Estilo geral da página */
+        h1 {
+           
+            margin: 0; /* Remove margens padrão */
+            font-family: cursive;
+            color: rgb(58, 58, 58);
+            text-align: center;
+        }
+
+        body {
+            background-color: #f0f0f0; /* Cor de fundo */
+        }
+        .corpo {
+            height: 50vh; /* 100% da altura da janela */
+            margin: 0; /* Remove margens padrão */
+            display: flex; /* Usamos Flexbox para centralizar */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+         
+        }
+
+        /* Quadrado maior - 5x5 grid */
+        .big-square {
+            display: grid; /* Usamos grid para distribuir os quadrados menores */
+            grid-template-columns: repeat(5, 1fr); /* Cria 5 colunas de tamanho igual */
+            grid-template-rows: repeat(5, 1fr); /* Cria 5 linhas de tamanho igual */
+            width: 250px; /* Largura do quadrado maior */
+            height: 250px; /* Altura do quadrado maior */
+            gap: 5px; /* Espaço entre os quadrados menores */
+            background-color: #4CAF50; /* Cor de fundo do quadrado maior */
+        }
+
+        /* Estilo dos quadrados menores */
+        .small-square {
+            background-color: #fff; /* Cor de fundo dos quadrados menores */
+            border: 2px solid #333; /* Borda dos quadrados menores */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer; /* Indica que os quadrados podem ser clicados */
+        }
+
+        /* Cores para os quadrados clicados */
+        .clicked-gray {
+            background-color: gray;
+        }
+
+        .clicked-red {
+            background-color: red;
+        }
+    

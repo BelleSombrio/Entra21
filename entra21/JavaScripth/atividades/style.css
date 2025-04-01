@@ -1,0 +1,25 @@
+button {
+    height: 40px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    color: white;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+h3 {
+    color: pink;
+}
+
+hr {
+    border: 1px solid hotpink;
+    
+}
+
+body {
+    background-color: rgb(255, 237, 252);
+}
+
